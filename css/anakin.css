@@ -1,0 +1,40 @@
+
+.ba{
+
+    background-image: url(/img/background/ANAKIN\ VAIDE.jfif);
+}
+.container{
+display: grid;
+grid-auto-rows: 100%;
+ grid-template-areas: "a a a a  b b b b c c c";
+margin-top: 5%;
+align-items: safe;
+
+}
+.section2{
+    grid-area: c;
+    margin-top: 40px;
+   align-content: center;
+   text-align: center;
+   width: 500px;
+   height: 500px;
+}
+  
+.textanakin{
+   grid-row: span;
+
+}
+p{
+text-align:start;
+vertical-align: bottom;
+margin-right: 2%;
+color: yellow;
+line-height:107%;
+font-size:15px;
+font-family:"Calibri",sans-serif;
+
+}
+h1{
+    margin-top: 10%;
+  
+}

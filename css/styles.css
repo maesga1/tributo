@@ -1,4 +1,6 @@
-
+body{
+    background-image: linear-gradient(to right, #1773c4, rgb(157, 68, 220));
+}
 .logo{
     float: left;
     width: 60px;
@@ -12,11 +14,72 @@
     padding: 20px;
 }
 .banner{
-    width: 100%;
-    height: 660px;
     position: relative;
     margin-top: 10px;
     margin-left: 0%;    
-    border-radius: 0;
+   
     text-align: center;
 }
+
+.banner img{
+    height: 250px;
+    width: 1000px;
+    border-radius: 10%;
+}
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: 100%;
+    grid-template-areas: "a a a a  b b b b";
+    align-content: space-between;
+   justify-content: space-around;
+   align-items:start;
+   margin-top: 5%;
+   
+}
+.img1{
+    grid-area: a;
+    text-align: center;
+
+}
+
+.img2{
+    grid-area: b;
+    text-align: center;
+   
+}
+.anakin{
+    width: 400px;
+    height: 400px;
+    
+}
+.luke{
+    width: 400px;
+    height: 400px;
+    
+}
+p{  position: relative;
+    text-align:center;
+    
+   
+    }
+img {
+        max-width: 100%;
+        height: auto;
+    }
+    .title{
+        text-align: center;
+        align-items:start;
+        margin-top: -150px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:whitesmoke;
+        margin-top: 5%;
+        
+    }
+    footer{
+        background-color: blueviolet;
+        text-align: center;
+        padding: 1%;
+        margin-top: 10%;
+    }

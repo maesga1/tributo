@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anakin y Luke Skywalker</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header>
-        <div>
-            <img class="logo" src="./img/logo/Logoordenjedai.webp" alt="logo">
-        </div>
-    </header> 
-        <nav class="home">
-            <button class="color">Anakin</button>
-            <button class="color">Luke</button>
-            <button class="color">Home</button>
-        </nav>
+      <div>
+        <img class="logo" src="./img/logo/Logoordenjedai.webp" alt="logo" />
+      </div>
+    </header>
+    <nav class="home">
+      <button onclick="window.location.href = './anakin.html';" class="color"> Anakin</button>
+      <button onclick="window.location.href = './luke.html';" class="color">Luke</button>
+      <button onclick="window.location.href = './index.html';" class="color">Home</button>
+    </nav>
     <main>
-        <section class="banner">
-            <img src="./img/banner/BANNER1.jpg"alt="banner">
-        </section>
-        <section class="text1">
-
-        </section>
+      <section class="banner">
+        <img src="./img/banner/BANNER1.jpg" alt="banner" />
+      </section>
+      <section class="text1">
+        <div class="title"><h1>Saga Skywalker</h1></div>
+      </section>
+      <section class="contenedor">
         <section class="img1">
-            <img src="./img/Home/ANAKIN.jpg"alt="Anakin">
+          <img class="anakin" src="./img/Home/ANAKIN.jpg" alt="Anakin" /><br />
+          <div>
+            <h2>Anakin Skywalker</h2>
+            <p>
+              Anakin Skywalker, más tarde Darth Vader, <br />es el personaje
+              central de la famosa saga de Star Wars del director George
+              Lucas.<br />
+              La saga se centra en su conocimiento de la Fuerza, su caída al
+              lado Oscuro y,<br />
+              finalmente, su redención y muerte.
+            </p>
+          </div>
         </section>
         <section class="img2">
-            <img src="./img/Home/aq75qnj_460s.jpg"alt="Luke">
+          <img class="luke" src="./img/Home/aq75qnj_460s.jpg" alt="Luke" />
+          <div>
+            <h2>Luke Skywalker</h2>
+            <p>
+              Luke Skywalker es un personaje ficticio y el protagonista​ <br />
+              de la trilogía original de la saga de ciencia ficción Star
+              Wars.<br />
+              ​ Procedente de la colonia de asteroides de Polis Massa, es el
+              único hijo varón<br />
+              de Anakin Skywalker y la senadora Padmé Amidala.
+            </p>
+          </div>
         </section>
+      </section>
     </main>
-</body>
-<footer>
-
-
-
-</footer>
+  </body>
+  <footer>
+    <h3>TODOS LOS DERECHOS RESERVADOS &copy;</h3>
+  </footer>
 </html>
