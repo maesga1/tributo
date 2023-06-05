@@ -25,17 +25,18 @@ align-items: safe;
 
 }
 p{
-text-align:justify;
+text-align:left;
 vertical-align: bottom;
 margin-right: 2%;
 color:midnightblue;
 line-height:107%;
 font-size:15px;
-font-family:'Times New Roman', Times, serif;
+font-family: 'Montserrat', sans-serif;
 font-size:small;
 background-color:silver;
 line-height: 2;
-align-items: left;
+align-items: right;
+padding: 20px;
 }
 h1{
     margin-top: 10%;
