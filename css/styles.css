@@ -10,8 +10,19 @@ body{
 .home{
     text-align: right;
     float: top;
-    margin: 3px;
+    margin: 6px;
     padding: 20px;
+    color: white;
+
+
+}
+.color{
+    background-color: white;
+    font-size: larger;
+
+
+
+
 }
 .banner{
     position: relative;
