@@ -16,13 +16,12 @@ align-items: safe;
     margin-top: 40px;
    align-content: center;
    text-align: center;
-   width: 500px;
-   height: 500px;
+ 
 }
 
-p{
+.luke{
 text-align:left;
-vertical-align:auto;
+vertical-align:middle;
 margin-right: 2%;
 color:black;
 background-color: bisque;
@@ -34,6 +33,7 @@ font-size:small;
 line-height: 2;
 align-items: right;
 padding: 20px;
+
 }
 h1{
     color:white;

@@ -14,8 +14,8 @@ align-items: safe;
 .section2{
     grid-area: c;
     margin-top: 40px;
-   align-content: center;
-   text-align: center;
+   align-content: left;
+   text-align: left;
    width: 500px;
    height: 500px;
 }
@@ -24,7 +24,7 @@ align-items: safe;
    grid-row: span;
 
 }
-p{
+.anakin{
 text-align:left;
 vertical-align: bottom;
 margin-right: 2%;
