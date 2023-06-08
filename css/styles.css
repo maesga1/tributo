@@ -59,7 +59,7 @@ body{
     text-align: center;
    
 }
-.l{
+.b{
     width: 400px;
     height: 400px;
     
@@ -94,3 +94,19 @@ img {
         padding: 1%;
         margin-top: 10%;
     }
+    .a{
+        transition: transform 0.2s ease;
+      }
+      
+      .a:hover {
+        transform: scale(1.1);
+      }
+
+    
+    .b{
+        transition: transform 0.2s ease;
+      }
+      
+      .b:hover {
+        transform: scale(1.1);
+      }

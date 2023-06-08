@@ -19,7 +19,10 @@ align-items: safe;
    width: 500px;
    height: 500px;
 }
-  
+.section2:hover {filter: saturate(180%);}  
+
+
+
 .textanakin{
    grid-row: span;
 
