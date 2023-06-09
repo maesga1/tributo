@@ -1,48 +1,43 @@
-
-.ba{
-
-    background-image: url(/img/background/vaider.jpg);
+.ba {
+  background-image: url(/img/background/vaider.jpg);
 }
-.container{
-display: grid;
-grid-auto-rows: 100%;
- grid-template-areas: "a a a a  b b b b c c c";
-margin-top: 5%;
-align-items: safe;
-
+.container {
+  display: grid;
+  grid-auto-rows: 100%;
+  grid-template-areas: "a a a a  b b b b c c c";
+  margin-top: 5%;
+  align-items: safe;
 }
-.section2{
-    grid-area: c;
-    margin-top: 40px;
-   align-content: left;
-   text-align: left;
-   width: 500px;
-   height: 500px;
+.section2 {
+  grid-area: c;
+  margin-top: 40px;
+  align-content: left;
+  text-align: left;
+  width: 500px;
+  height: 500px;
 }
-.section2:hover {filter: saturate(180%);}  
-
-
-
-.textanakin{
-   grid-row: span;
-
+.section2:hover {
+  filter: saturate(180%);
 }
-.anakin{
-text-align:left;
-vertical-align: bottom;
-margin-right: 2%;
-color:midnightblue;
-line-height:107%;
-font-size:15px;
-font-family: 'Montserrat', sans-serif;
-font-size:small;
-background-color:silver;
-line-height: 2;
-align-items: right;
-padding: 20px;
+
+.textanakin {
+  grid-row: span;
 }
-h1{
-    margin-top: 10%;
-    text-align: center;
-  
+.anakin {
+  text-align: left;
+  vertical-align: bottom;
+  margin-right: 2%;
+  color: midnightblue;
+  line-height: 107%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  background-color: silver;
+  line-height: 2;
+  align-items: right;
+  padding: 20px;
+}
+h1 {
+  margin-top: 10%;
+  text-align: center;
 }

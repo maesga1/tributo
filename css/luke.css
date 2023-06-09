@@ -1,45 +1,42 @@
-.lu{
-
-    background-image: url(/img/background/luke.jpg);
-    background-size: 300%;
+.lu {
+  background-image: url(/img/background/luke.jpg);
+  background-size: 300%;
 }
-.container{
-display: grid;
-grid-auto-rows: 100%;
- grid-template-areas: "a a a a  b b b b c c c";
-margin-top: 5%;
-align-items: safe;
-
+.container {
+  display: grid;
+  grid-auto-rows: 100%;
+  grid-template-areas: "a a a a  b b b b c c c";
+  margin-top: 5%;
+  align-items: safe;
 }
-.section2{
-    grid-area: c;
-    margin-top: 40px;
-   align-content: center;
-   text-align: center;
- 
+.section2 {
+  grid-area: c;
+  margin-top: 40px;
+  align-content: center;
+  text-align: center;
 }
-.section2:hover {filter: saturate(180%);}  
-
-.luke{
-text-align:left;
-vertical-align:middle;
-margin-right: 2%;
-color:black;
-background-color: bisque;
-background-size: cover;
-line-height:10%;
-font-size:15px;
-font-family: 'Montserrat', sans-serif;
-font-size:small;
-line-height: 2;
-align-items: right;
-padding: 20px;
-
+.section2:hover {
+  filter: saturate(180%);
 }
-h1{
-    color:white;
-    margin-top: 10%;
-    text-align: center;
-    height: 10%;
-  
+
+.luke {
+  text-align: left;
+  vertical-align: middle;
+  margin-right: 2%;
+  color: black;
+  background-color: bisque;
+  background-size: cover;
+  line-height: 10%;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+  line-height: 2;
+  align-items: right;
+  padding: 20px;
+}
+h1 {
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+  height: 10%;
 }
